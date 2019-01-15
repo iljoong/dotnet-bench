@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "azureDevOpsServicesAccount": {
+        "value": "_add_"
+      },
+      "personalAccessToken": {
+        "value": "_add_"
+      },
+      "adminPassword": {
+        "value": "_add_"
+      },
+      "agentCount": {
+        "value": 1
+      },
+      "adminUsername": {
+        "value": "_add_"
+      },
+      "existingVNetResourceGroupName": {
+        "value": "test-dnc"
+      },
+      "existingVNetName": {
+        "value": "dncvnet"
+      },
+      "subnetName": {
+        "value": "agtsubnet"
+      }
+    }
+  }
+  
