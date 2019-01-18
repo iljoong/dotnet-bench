@@ -26,6 +26,8 @@ You also need to update startup code to listen unix socket.
                 });
 ```
 
+Use `linux` branch for building unix socket enabled app.
+
 ### 2. Update ngnix config
 
 Update `/etc/nginx/sites-available/default`
