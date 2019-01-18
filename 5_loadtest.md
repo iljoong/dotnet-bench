@@ -56,8 +56,6 @@ Note *:
  - 26% of failed requests of total 172,518 request.
  - Mostly 502 BadGateway errors and few SocketException errors are produced during test.
 
-62 | Linux   | Kestrel     | Docker            | 6.5        | 722.1   | 78.9%   |
-
 ## Update for Linux+Nginx options
 
 Using unix socket (using libuv) between Nginx and dotnet improved performance.
