@@ -19,9 +19,12 @@ namespace dncbench
             CreateWebHostBuilder(args).Build().Run();
         }
 
+        // default
+        /*
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+        */
 
         // http.sys
         /*
@@ -40,7 +43,6 @@ namespace dncbench
 
 
         // Unix socket for Nginx+Kestrel 
-        /*
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseLibuv()
@@ -49,6 +51,5 @@ namespace dncbench
                 {
                     options.ListenUnixSocket("/tmp/api.sock");
                 });
-        */
     }
 }
